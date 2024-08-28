@@ -87,14 +87,14 @@ while isRunning:
 
     handelunseenPlayers(unseenPlayers)
 
-    option = int(input("Start again (0) | Exit (1)"))
+    option = int(input("Exit (0) | Start Again (1) "))
 
-    if option == 0:
+    if option == 1:
         playersMaal = []
         totalMaal = 0
         seenPlayers = []
         unseenPlayers = []
-    elif option == 1:
+    elif option == 0:
         playersMaal = []
         totalMaal = 0
         seenPlayers = []
