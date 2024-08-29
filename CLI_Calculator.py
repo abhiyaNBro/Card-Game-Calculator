@@ -95,11 +95,6 @@ while isRunning:
         seenPlayers = []
         unseenPlayers = []
     elif option == 0:
-        playersMaal = []
-        totalMaal = 0
-        seenPlayers = []
-        unseenPlayers = []
-        playersName = []
         isRunning = False
         
         
